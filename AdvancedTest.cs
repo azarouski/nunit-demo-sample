@@ -7,7 +7,7 @@ using RestSharp.Serializers.NewtonsoftJson;
 using ZebrunnerAgent.Attributes;
 using ZebrunnerAgent.Registrar;
 
-namespace NunitAgentSample
+namespace nunit_demo_sample
 {
     [TestFixture]
     [Maintainer("vader")]
