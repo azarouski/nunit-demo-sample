@@ -4,7 +4,7 @@
     <TargetFramework>net48</TargetFramework>
     <RootNamespace>nunit_demo_sample</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-
+	
     <IsPackable>false</IsPackable>
     <IsTestProject>true</IsTestProject>
     <LangVersion>10</LangVersion>
@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="System.Net.Http" />
     <Reference Include="ZebrunnerAgent">
       <HintPath>..\nunit-sample-demo\packages\ZebrunnerAgent.dll</HintPath>
     </Reference>
